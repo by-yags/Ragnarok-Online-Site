@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.play-now-btn {
+    background-color: #ffd700;
+    color: #003366;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.play-now-btn:hover {
+    background-color: #ffc400;
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+}
+
+.feature i {
+    font-size: 3rem;
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Download Section */
+.download {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.download h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.download-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.download-btn {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #004488;
+}
+
+/* Community Section */
+.community {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.community h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.community-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.community-btn {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.community-btn:hover {
+    background-color: #004488;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+    .download-links,
+    .community-links {
+        flex-direction: column;
+    }
+}
