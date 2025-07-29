@@ -6,9 +6,9 @@
     <title>Ragnarok Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="homepage">
+    <div class="background-image"></div>
     <nav>
-        <div class="placeholder-image">&lt;INSERT BACKGROUND HERE&gt;</div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">News</a></li>
