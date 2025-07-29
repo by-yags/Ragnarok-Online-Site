@@ -6,9 +6,13 @@
     <title>Ragnarok Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="homepage">
+    <div class="background-image"></div>
     <nav>
+<<<<<<< HEAD
         <img src="/images/war-of-emperium-cover.jpg" alt="War of Emperium Cover" class="placeholder-image">
+=======
+>>>>>>> 533335568d530422e493b27eaf25088c55c71a36
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">News</a></li>
