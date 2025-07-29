@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav>
-        <div class="placeholder-image">&lt;INSERT BACKGROUND HERE&gt;</div>
+        <img src="/images/war-of-emperium-cover.jpg" alt="War of Emperium Cover" class="placeholder-image">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">News</a></li>
